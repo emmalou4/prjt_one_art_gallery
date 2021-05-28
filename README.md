@@ -4,8 +4,8 @@ This is an app that allows you to select a random number and then learn more abo
 ## Technologies Used
 HTML5, CSS3, JavaScript, jQuery, Art Institue of Chicago API, Bootstrap
 
-## Screenshots:
-![Art Gallery wireframe](img/Screen Shot 2021-05-28 at 8.24.04 AM.png)
+## Screenshots
+![Art Gallery Wireframe](img/Screen Shot 2021-05-28 at 8.24.04 AM.png)
 
 ## Getting Started
 To see the deployed app, click here: https://emmalou4.github.io/prjt_one_art_gallery/
