@@ -5,29 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script defer src="js/script.js"></script>
-    <title>Digital Art Gallery</title>
+    <script defer src="./js/script.js"></script>
+    <title>The Digital Art Gallery</title>
 </head>
 
 <body>
+    
+<div class="hero-unit">
     <h1>Digital Art Gallery</h1>
-
-    <main>
-        <p>Artist</p>
-        <p id="artist_titles"></p>
-        <p>Title</p>
-        <p id="title"></p>
-        <p>Date</p>
-        <p id="date_display"></p>
-        <p>Department</p>
-        <p id="department_title"></p> 
-    </main>
-
+    <p>This is a digital art gallery where you can explore different artworks and artists. Pick a random number so you can "meet" a new artist you may not have before!</p>
+  </div>
     <form>
-        <input id="search" type="text" placeholder="Artist Name"/>
-        <input type="submit" value="Find Artworks"/>
-    </form> 
+        <input type="text" placeholder="Enter a random #" />
+        <input id="button" type="submit" value="See Artwork" />
+    </form>
+    <main>
+        <p><b>Title:</b></p>
+        <p id="title"></p>
+        <p><b>Artist:</b></p>
+        <p id="artist_title"></p>
+        <p><b>Date:</b></p>
+        <p id="date_display"></p>
+    <footer>
+        <img id="thumbnail" alt="artwork">
+    </footer>
+    </main>
 </body>
 
 </html>

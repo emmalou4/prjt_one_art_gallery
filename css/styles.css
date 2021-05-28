@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(235, 224, 217);
+}
+
+div > p {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(37, 62, 93);;
+}
+div {
+    color: rgb(95, 44, 43);
+    text-align: center;
+    padding: 20px;
+    font-size: 45px;
+  }
+  
+form {
+    text-align: center;
+    padding: 15px;
+}
+
+#artist_title {
+    font-size: 17px;
+}
+
+#title {
+    font-size: 17px;
+}
+
+#date_display {
+    font-size: 17px;
+}
+
+p {
+    text-align: center;
+    color: rgb(37, 62, 93);
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    padding: 15px;
+}
